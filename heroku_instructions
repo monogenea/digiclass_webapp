@@ -1,0 +1,9 @@
+# Install via Homebrew
+brew tap heroku/brew && brew install heroku
+# Login
+heroku login -i
+# Create app
+heroku create <APP_NAME>
+# Push git project to new app
+git push heroku master
+# The app will now be available from https://<APP_NAME>.herokuapp.com
